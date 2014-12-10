@@ -1,8 +1,9 @@
 ## 
-## These are two functions that uses to cache inverser of a matrix
+## These are a couple of functions that uses to cache inverser of a square matrix
 ##
 
-## makeCacheMatrix function creates a special "matrix" object that can cache its inverse
+
+## This function creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
